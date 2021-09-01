@@ -1,0 +1,3 @@
+#!/usr/bin/execlineb -P
+s6-setuidgid daemon
+swipl -g "get_time(A), writeln(A)" -t "sleep(3)"
